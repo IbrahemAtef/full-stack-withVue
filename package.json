@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build --prefix client && node server/index.js",
-    "dev": "nodemon server/index.js"
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "build": "npm run build --prefix client"
   },
   "repository": {
     "type": "git",
